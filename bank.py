@@ -5,6 +5,7 @@ def main():
 
 
 def value(greeting):
+    greeting= greeting.lower()
     if "hello" in greeting:
         return "$0"
     elif greeting.startswith("h"):
